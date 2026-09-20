@@ -5,7 +5,7 @@ import asyncio
 app = FastAPI()
 
 GARENA_AUTH_URL = "https://auth.garena.com/oauth/login"
-GAME_JWT_URL = "https://client-api.us.freefiremobile.com/oauth/garena" # প্রয়োজন অনুযায়ী অঞ্চল/রিজন URL আপডেট করতে পারেন
+GAME_JWT_URL = "https://clientbp.ppmainecoonghj.com/oauth/garena" # প্রয়োজন অনুযায়ী অঞ্চল/রিজন URL আপডেট করতে পারেন
 
 @app.get("/")
 def home():
